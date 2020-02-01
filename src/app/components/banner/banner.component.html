@@ -1,0 +1,29 @@
+<section>
+  <div class="bg-side-img">
+  
+  </div>
+  <div class="assets">
+
+    <div fxLayoutAlign="center">
+        <div fxLayout="row" fxLayoutAlign="space-around center">
+          <div class="content">
+            <div *ngFor="let item of content">
+              <h1>{{ item.head }}</h1>
+              <p>{{ item.para }}</p>
+            </div>
+    
+            <input type="text" placeholder="Enter Your Email"> <button mat-raised-button> Submit </button>
+          </div>
+    
+          <div class="laptop">
+            <img
+              src="../../../assets/img/laptop.png"
+              alt="laptop"
+             class="laptop"
+            />
+          </div>
+        </div>
+      </div>
+  </div>
+
+</section>
