@@ -1,1 +1,29 @@
-<p>get-start-bitcoin works!</p>
+<section>
+  <div Align="center">
+    <div class="heading">
+      <h1>Get Started With Bitcoin</h1>
+
+      <p>
+        Start learning about Bitcoin with interactive tutorials. It’s fun, easy,
+        and takes only a few minutes!
+      </p>
+    </div>
+
+    <div class=" cards">
+      <div *ngFor="let item of content">
+        <div fxLayout="row wrap" fxLayoutAlign="space-around center">
+          <mat-card>
+            <div class="card-body">
+              <div class="icon-part"></div>
+
+              <div class="content">
+                <h3>{{ item.head }}</h3>
+                <p>{{ item.para }}</p>
+              </div>
+            </div>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

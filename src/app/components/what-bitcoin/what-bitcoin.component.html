@@ -1,1 +1,19 @@
-<p>what-bitcoin works!</p>
+<section>
+  <div>
+    <div fxLayout="row" fxLayoutAlign="space-around center">
+      <div class="img-part">
+        <img src="../../../assets/img/about-img.png" alt="" />
+      </div>
+      <div class="content">
+        <div *ngFor="let item of content">
+          <h1>{{ item.head }}</h1>
+
+          <h5>{{ item.subHead }}</h5>
+
+        </div>
+        <button>Get Started</button>
+
+      </div>
+    </div>
+  </div>
+</section>

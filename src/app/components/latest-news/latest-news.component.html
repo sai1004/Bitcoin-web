@@ -1,1 +1,26 @@
-<p>latest-news works!</p>
+<section>
+  <div>
+    <div>
+      <div class="headign"></div>
+
+      <div class="cards">
+        <div *ngFor="let item of content">
+          <mat-card>
+            <div class="img-part">
+              <img src="{{ item.img }}" alt="img-part" class="news-img" />
+            </div>
+            <div class="card-body">
+              <h5>{{ item.date }}</h5>
+              <h2>{{ item.head }}</h2>
+              <div>
+                <span>By {{ item.updatedBy }} </span>
+                <span> {{ item.likes }} likes </span>
+                <span> {{ item.coments }} coments </span>
+              </div>
+            </div>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
