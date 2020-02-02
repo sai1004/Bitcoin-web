@@ -1,0 +1,27 @@
+section {
+  background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+}
+
+.content {
+  color: white;
+}
+
+input {
+  height: 44px;
+  width: 280px;
+  border: none;
+  outline: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+input::placeholder {
+  padding: 10px;
+}
+
+button {
+  height: 44px;
+  background: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
