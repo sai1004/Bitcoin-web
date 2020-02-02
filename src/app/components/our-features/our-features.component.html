@@ -6,20 +6,22 @@
     </div>
 
     <div class="content">
-      <div fxLayout="row wrap" fxLayoutAlign="space-around center">
-        <div *ngFor="let item of content">
-          <div fxLayout="row">
-            <div class="icon-part">
-              <p>Icon</p>
-            </div>
+      <div fxFlex.xs="100" fxFlex.sm="50" fxFlex.md="33.333" fxFlex.lg="33.333">
+        <div fxLayout="row wrap" fxLayoutAlign="space-around center">
+          <div *ngFor="let item of content">
+            <div fxLayout="row">
+              <div class="icon-part">
+                <p>Icon</p>
+              </div>
 
-            <div class="content-side">
-              <h4>{{ item.head }}</h4>
+              <div class="content-side">
+                <h4>{{ item.head }}</h4>
 
-              <p>{{ item.para }}</p>
+                <p [innerHTML]="item.para"></p>
+              </div>
             </div>
+            <!-- <p>Read more</p> -->
           </div>
-          <p>Read more</p>
         </div>
       </div>
     </div>

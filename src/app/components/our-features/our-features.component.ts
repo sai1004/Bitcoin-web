@@ -10,33 +10,33 @@ export class OurFeaturesComponent implements OnInit {
     {
       head: "Mobile",
       para:
-        "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "Excepteur sint occaecat cupidatat non  <br/> proident sunt in culpa qui officia deserunt <br/> mollit anim id est laborum."
     },
 
     {
       head: "Safe & Secure",
       para:
-        "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "Excepteur sint occaecat cupidatat non  <br/> proident sunt in culpa qui officia deserunt <br/> mollit anim id est laborum."
     },
     {
       head: "Wallet",
       para:
-        "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "Excepteur sint occaecat cupidatat non  <br/> proident sunt in culpa qui officia deserunt <br/> mollit anim id est laborum."
     },
     {
       head: "Experts Support",
       para:
-        "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "Excepteur sint occaecat cupidatat non  <br/> proident sunt in culpa qui officia deserunt <br/> mollit anim id est laborum."
     },
     {
       head: "Instant Exchange",
       para:
-        "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "Excepteur sint occaecat cupidatat non  <br/> proident sunt in culpa qui officia deserunt <br/> mollit anim id est laborum."
     },
     {
       head: "Recuring Buys",
       para:
-        "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "Excepteur sint occaecat cupidatat non  <br/> proident sunt in culpa qui officia deserunt <br/> mollit anim id est laborum."
     }
     // { icon: '../../../assets/img/'}
   ];
