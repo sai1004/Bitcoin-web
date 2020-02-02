@@ -1,6 +1,7 @@
-.section{
+.section {
   background-color: #eee;
 }
+
 .bg-side-img {
   background-image: url(../../../assets/img/hero-bg.png);
   /* background-position-x: left; */
