@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from "@angular/forms";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -37,7 +38,7 @@ import { AuthPageComponent } from './pages/auth-page/auth-page.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,SharedModule
+    BrowserAnimationsModule,SharedModule,FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
