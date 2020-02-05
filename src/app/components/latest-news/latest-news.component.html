@@ -1,25 +1,28 @@
 <section fxLayoutAlign="center">
   <div>
     <div>
-      <div class="headign"></div>
+      <div class="heading" Align="center">
+        <h1>Latest News</h1>
+        <p>Bitcoin is the simplest way to exchange money at very low cost.</p>
+      </div>
 
       <div class="cards">
-        <div fxLayout="row wrap" fxLayoutAlign="space-around center">
-          <div *ngFor="let item of content">
-            <mat-card>
+        <div fxLayout="row wrap" fxLayoutAlign="center">
+          <ng-container *ngFor="let item of content">
+            <div class="card">
               <img src="{{ item.img }}" alt="img-part" class="news-img" />
 
               <div class="card-body">
                 <h5>{{ item.date }}</h5>
                 <h2>{{ item.head }}</h2>
-                <div>
+                <div fxLayoutAlign="space-between center">
                   <span>By {{ item.updatedBy }} </span>
                   <span> {{ item.likes }} likes </span>
                   <span> {{ item.coments }} coments </span>
                 </div>
               </div>
-            </mat-card>
-          </div>
+            </div>
+          </ng-container>
         </div>
       </div>
     </div>

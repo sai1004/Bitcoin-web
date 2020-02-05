@@ -1,0 +1,17 @@
+.card {
+  margin: 10px;
+  padding: 30px;
+  height: auto;
+  max-width: 350px;
+  box-shadow: 0px 5px 5px 5px rgba(200, 200, 200, 0.5);
+}
+
+.card h3 {
+  color: #20509e;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.card p {
+  color: gray;
+}

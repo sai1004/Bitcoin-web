@@ -20,8 +20,10 @@ input::placeholder {
 }
 
 button {
-  height: 44px;
+  height: 46px;
   background: white;
+  border-top-left-radius: none;
+  border-bottom-left-radius: none;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }

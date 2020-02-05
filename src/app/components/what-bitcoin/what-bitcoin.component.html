@@ -5,13 +5,13 @@
         <img src="../../../assets/img/about-img.png" alt="" />
       </div>
       <div class="content">
-        <div *ngFor="let item of content">
+        <ng-container *ngFor="let item of content">
           <h1>{{ item.head }}</h1>
 
           <h5 [innerHTML]="item.subHead"></h5>
 
           <p [innerHTML]="item.para"></p>
-        </div>
+        </ng-container>
         <button mat-button>Get Started</button>
       </div>
     </div>

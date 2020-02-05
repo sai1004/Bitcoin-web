@@ -1,3 +1,16 @@
-section {
-  background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+h1 {
+  color: #20509e;
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 17px;
+
+}
+
+a{
+  padding: 5px;
+  line-height: 28px;
+  color: gray;
+}
+p {
+  color: gray;
 }

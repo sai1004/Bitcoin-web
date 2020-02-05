@@ -1,14 +1,51 @@
-.news-img {
-  height: 300px;
-  width: auto;
+section {
+  background-color: whitesmoke;
+}
+.heading {
+  padding-bottom: 60px;
+}
+.heading h1 {
+  color: #20509e;
+  margin: 0;
+  font-weight: 500;
+  font-size: 40px;
+  font-family: "Futura", sans-serif;
 }
 
-mat-card {
+.heading p {
+  color: gray;
+}
+
+.card {
+  height: auto;
+  width: 350px;
   padding: 0;
   margin: 10px;
+  box-shadow: 0px 5px 5px 5px rgba(200, 200, 200, 0.5);
+}
+
+.news-img {
+  height: auto;
+  width: 350px;
 }
 
 .card-body {
-padding: 10px;
+  padding: 20px;
   max-width: 450px;
+}
+
+.card-body h2 {
+  color: #20509e;
+
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.card-body h5 {
+  font-size: 14px;
+  font-family: "Futura", sans-serif;
+  color: #16d0c5;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
 }

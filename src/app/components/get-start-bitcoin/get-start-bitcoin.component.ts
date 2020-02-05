@@ -8,19 +8,19 @@ import { Component, OnInit } from "@angular/core";
 export class GetStartBitcoinComponent implements OnInit {
   content: any[] = [
     {
-      icon: "../../../asstes/img/process-icons/1.png",
+      icon: "../../../assets/img/process-icons/1.png",
       head: "Create Your Wallet",
       para:
         "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      icon: "../../../asstes/img/process-icons/2.png",
+      icon: "../../../assets/img/process-icons/2.png",
       head: "Create Your Wallet",
       para:
         "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      icon: "../../../asstes/img/process-icons/3.png",
+      icon: "../../../assets/img/process-icons/3.png",
       head: "Create Your Wallet",
       para:
         "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum."
