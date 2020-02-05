@@ -6,9 +6,9 @@
     </div>
 
     <div class="content">
-      <div fxFlex.xs="100" fxFlex.sm="50" fxFlex.md="33.333" fxFlex.lg="33.333">
-        <div fxLayout="row wrap" fxLayoutAlign="space-around center">
-          <div *ngFor="let item of content">
+      <div fxLayout="row wrap" fxLayoutAlign="space-around center">
+        <ng-container *ngFor="let item of content">
+          <div fxFlex.xl="33.333" fxFlex.lg="33.333" fxFlex.md="50" fxFlex.sm="100" fxFlex.xs="100" >
             <div fxLayout="row">
               <div class="icon-part">
                 <p>Icon</p>
@@ -22,7 +22,7 @@
             </div>
             <!-- <p>Read more</p> -->
           </div>
-        </div>
+        </ng-container>
       </div>
     </div>
   </div>
