@@ -10,21 +10,34 @@
     </div>
 
     <div class=" cards">
-      <div *ngFor="let item of content">
-        <div fxLayout="row wrap" fxLayoutAlign="space-around center">
-          <mat-card>
-            <div class="card-body">
-              <div class="icon-part">
-                <img src="{{ item.icon }}" alt="icon" class="icon" height="100px">
-              </div>
+      <div fxLayout="row wrap" fxLayoutAlign="space-around center">
+        <ng-container *ngFor="let item of content">
+          <div
+            fxFlex.xl="33.333"
+            fxFlex.lg="33.333"
+            fxFlex.md="50"
+            fxFlex.sm="100"
+            fxFlex.xs="100"
+          >
+            <mat-card>
+              <div class="card-body">
+                <div class="icon-part">
+                  <img
+                    src="{{ item.icon }}"
+                    alt="icon"
+                    class="icon"
+                    height="100px"
+                  />
+                </div>
 
-              <div class="content">
-                <h3>{{ item.head }}</h3>
-                <p>{{ item.para }}</p>
+                <div class="content">
+                  <h3>{{ item.head }}</h3>
+                  <p>{{ item.para }}</p>
+                </div>
               </div>
-            </div>
-          </mat-card>
-        </div>
+            </mat-card>
+          </div>
+        </ng-container>
       </div>
     </div>
   </div>
