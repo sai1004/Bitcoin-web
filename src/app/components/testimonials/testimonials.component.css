@@ -1,0 +1,31 @@
+section {
+  background-color: whitesmoke;
+}
+
+.img-border {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  background-color: white;
+}
+.img-sliders {
+  max-width: 500px;
+  text-align: center;
+}
+
+.right-arrow {
+  height: 100px;
+  cursor: pointer;
+}
+
+.left-arrow {
+  height: 100px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}

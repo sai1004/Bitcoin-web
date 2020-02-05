@@ -1,1 +1,38 @@
-<p>testimonials works!</p>
+<section fxLayoutAlign="center">
+  <div>
+    <div fxLayout="row wrap" fxLayoutAlign="space-around center">
+      <div fxFlex="40">
+        <div class="img-sliders">
+          <div fxLayout="row">
+            <div class="img-border" Align="center">
+              <img [src]="slider.icon" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div fxFlex="60">
+        <div class="content-slider">
+          <div class="content">
+            <p [innerHTML]="slider.feedback"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrows">
+        <img
+          src="../../../assets/arrow.svg"
+          alt="left-arrow"
+          class="left-arrow"
+          (click)="next()"
+        />
+        <img
+          src="../../../assets/arrow.svg"
+          class="right-arrow"
+          alt="right-arrow"
+          (click)="previous()"
+        />
+      </div>
+    </div>
+  </div>
+</section>
