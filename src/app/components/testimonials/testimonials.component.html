@@ -20,18 +20,25 @@
       </div>
 
       <div class="arrows">
-        <img
-          src="../../../assets/arrow.svg"
-          alt="left-arrow"
-          class="left-arrow"
-          (click)="next()"
-        />
-        <img
-          src="../../../assets/arrow.svg"
-          class="right-arrow"
-          alt="right-arrow"
-          (click)="previous()"
-        />
+        <div fxLayout="row">
+          <div class="arrow-back">
+            <img
+              src="../../../assets/arrow.svg"
+              alt="left-arrow"
+              class="left-arrow"
+              (click)="next()"
+            />
+          </div>
+
+          <div class="arrow-back">
+            <img
+              src="../../../assets/arrow.svg"
+              class="right-arrow"
+              alt="right-arrow"
+              (click)="previous()"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </div>

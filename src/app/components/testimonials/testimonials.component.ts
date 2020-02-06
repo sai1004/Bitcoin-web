@@ -6,9 +6,16 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./testimonials.component.css"]
 })
 export class TestimonialsComponent implements OnInit {
+  num: number = 0;
+
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    setTimeout(() => {
+      this.num++;
+      this.slider = this.reviews[this.num];
+    }, 3000);
+  }
 
   reviews: any[] = [
     {
@@ -34,8 +41,6 @@ export class TestimonialsComponent implements OnInit {
     }
   ];
 
-  num: number = 0;
-
   slider: any = this.reviews[0];
 
   next() {
@@ -43,7 +48,6 @@ export class TestimonialsComponent implements OnInit {
     if (this.num >= this.reviews.length) {
       this.num = 0;
     }
-
     this.slider = this.reviews[this.num];
   }
 
