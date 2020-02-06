@@ -1,37 +1,30 @@
 <section>
-
-    <div>
-
-        <div class="heading">
-
-        </div>
-
-        <div class="cards">
-
-            <div  fxLayout="row wrap" fxLayoutAlign="space-around center">
-
-                <ng-container *ngFor="let item of team">
-
-                    <div>
-
-                        <div class="card" Align='center'>
-
-                            <div class="card-body">
-                            
-                                <img src="{{ item.img }}" alt="img" class="team-img">
-                            
-                                <h3> {{ item.name }} </h3>
-                                <p> {{ item.designation }} </p>
-
-                                <div  fxLayout="row" fxLayoutAlign="space-around">
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </ng-container>
-            </div>
-
-        </div>
+  <div>
+    <div class="heading" Align="center">
+      <h1>Meet Our Team</h1>
+      <p>
+        Our experts in the field of crypto currency can always help you with any
+        of your questions!
+      </p>
     </div>
+
+    <div class="cards">
+      <div fxLayout="row wrap" fxLayoutAlign="space-around center">
+        <ng-container *ngFor="let item of team">
+          <div>
+            <div class="card" Align="center">
+              <div class="card-body">
+                <img src="{{ item.img }}" alt="img" class="team-img" />
+
+                <h3>{{ item.name }}</h3>
+                <p>{{ item.designation }}</p>
+
+                <div fxLayout="row" fxLayoutAlign="space-around"></div>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
 </section>

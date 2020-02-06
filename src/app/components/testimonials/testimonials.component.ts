@@ -12,9 +12,8 @@ export class TestimonialsComponent implements OnInit {
 
   ngOnInit() {
     setTimeout(() => {
-      this.num++;
-      this.slider = this.reviews[this.num];
-    }, 3000);
+  
+    }, 300);
   }
 
   reviews: any[] = [

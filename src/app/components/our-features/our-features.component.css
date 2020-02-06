@@ -3,12 +3,10 @@
 }
 .heading h1 {
   color: white;
-
 }
 
-.heading p{
+.heading p {
   color: white;
-
 }
 section {
   color: white;
@@ -19,4 +17,10 @@ section {
     #2dd3aa 100%,
     #2dd3aa 100%
   );
+}
+
+.icons {
+  height: 60px;
+  margin-top: 30px;
+  margin-right: 20px;
 }
