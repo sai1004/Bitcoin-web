@@ -4,26 +4,21 @@ import { HttpClientModule } from "@angular/common/http";
 
 import { MaterialModule } from "./material.module";
 import { FlexLayoutModule } from "@angular/flex-layout";
- 
-@NgModule({
-  imports: [
-    FlexLayoutModule,
-    FormsModule,
-    MaterialModule,HttpClientModule
-  ],
+import { ShadowDirective } from "./directives/shadow.directive";
 
-  declarations: [
-  ],
+@NgModule({
+  imports: [FlexLayoutModule, FormsModule, MaterialModule, HttpClientModule],
+
+  declarations: [ShadowDirective],
 
   exports: [
     FormsModule,
     FlexLayoutModule,
-    MaterialModule,HttpClientModule
+    MaterialModule,
+    HttpClientModule,
+    ShadowDirective
   ],
 
   providers: []
-
-
 })
-
 export class SharedModule {}

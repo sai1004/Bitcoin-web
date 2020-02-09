@@ -19,6 +19,8 @@ import { TestimonialsComponent } from "./components/testimonials/testimonials.co
 import { OurTeamComponent } from "./components/our-team/our-team.component";
 import { AuthPageComponent } from "./pages/auth-page/auth-page.component";
 import { LatestService } from "../app/components/latest-news/latest.service";
+import { PopcornComponent } from "./components/popcorn/popcorn.component";
+import { PopcornService } from "./components/popcorn/popcorn.service";
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +35,8 @@ import { LatestService } from "../app/components/latest-news/latest.service";
     FooterComponent,
     TestimonialsComponent,
     OurTeamComponent,
-    AuthPageComponent
+    AuthPageComponent,
+    PopcornComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +45,7 @@ import { LatestService } from "../app/components/latest-news/latest.service";
     SharedModule,
     FormsModule
   ],
-  providers: [LatestService],
+  providers: [LatestService, PopcornService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
