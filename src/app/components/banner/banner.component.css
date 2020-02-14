@@ -20,20 +20,30 @@
 }
 
 
-input {
+/* input {
   height: 42px;
   width: 330px;
   outline: none;
   border: 1px solid gray;
   border-radius: 20px;
-}
+} */
 
 input::-webkit-input-placeholder {
-
   padding: 10px;
 }
 
 
 .laptop {
   height: 400px;
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
