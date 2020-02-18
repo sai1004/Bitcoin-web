@@ -11,9 +11,7 @@ export class TestimonialsComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    setTimeout(() => {
-  
-    }, 300);
+    setTimeout(() => {}, 300);
   }
 
   reviews: any[] = [
@@ -22,14 +20,14 @@ export class TestimonialsComponent implements OnInit {
       name: "Katy Abrams",
       designation: "Ceo Bitcoin",
       feedback:
-        '"Bitcoin is exciting because it shows how cheap it can be. Bitcoin is better than currency in that you don’t have to be physically in the same place and, of course, for large transactions, currency can get pretty inconvenient.”'
+        '"Bitcoin is exciting because it shows how cheap it can be. <br/> Bitcoin is better than currency in that you don’t have to be physically in the same place and, of course, for large transactions, currency can get pretty inconvenient.”'
     },
     {
       icon: "../../../assets/img/review/2.jpg",
       name: "Katy Abrams",
       designation: "Ceo Bitcoin",
       feedback:
-        '"Bitcoin is a cryptocurrency. It is a decentralized digital currency without a central bank or single administrator that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries. .”'
+        '"Bitcoin is a cryptocurrency. It is a decentralized digital currency <br/> without a central bank or single administrator that can be sent from <br/> user to user on the peer-to-peer bitcoin network without the need for intermediaries. .”'
     },
     {
       icon: "../../../assets/img/review/3.jpg",

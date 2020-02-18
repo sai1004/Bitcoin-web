@@ -8,6 +8,7 @@
 .img-sliders {
   max-width: 500px;
   text-align: center;
+  height: 300px;
 }
 
 .right-arrow {
@@ -35,4 +36,14 @@ img {
   border-radius: 50%;
   height: 100px;
   width: 100px;
+}
+
+.content-slider {
+  text-align: left;
+  height: 200px;
+}
+
+.arrows {
+  height: 100px;
+
 }

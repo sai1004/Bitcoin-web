@@ -1,10 +1,10 @@
 <section fxLayoutAlign="center">
   <div>
-    <div fxLayout="row wrap" fxLayoutAlign="space-around center">
+    <div fxLayout="row wrap">
       <div fxFlex="40">
         <div class="img-sliders">
-          <div fxLayout="row">
-            <div class="img-border" Align="center">
+          <div class="img-border" Align="center">
+            <div>
               <img [src]="slider.icon" alt="" />
               <h4 [innerHTML]="slider.name"></h4>
               <p [innerHTML]="slider.designation"></p>
@@ -19,26 +19,26 @@
             <p [innerHTML]="slider.feedback"></p>
           </div>
         </div>
-      </div>
 
-      <div class="arrows">
-        <div fxLayout="row">
-          <div class="arrow-back">
-            <img
-              src="../../../assets/arrow.svg"
-              alt="left-arrow"
-              class="left-arrow"
-              (click)="next()"
-            />
-          </div>
+        <div class="arrows">
+          <div fxLayout="row">
+            <div class="arrow-back">
+              <img
+                src="../../../assets/arrow.svg"
+                alt="left-arrow"
+                class="left-arrow"
+                (click)="next()"
+              />
+            </div>
 
-          <div class="arrow-back">
-            <img
-              src="../../../assets/arrow.svg"
-              class="right-arrow"
-              alt="right-arrow"
-              (click)="previous()"
-            />
+            <div class="arrow-back">
+              <img
+                src="../../../assets/arrow.svg"
+                class="right-arrow"
+                alt="right-arrow"
+                (click)="previous()"
+              />
+            </div>
           </div>
         </div>
       </div>
