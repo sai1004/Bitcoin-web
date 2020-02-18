@@ -14,4 +14,8 @@ export class BannerComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  onSubmit(email: any) {
+    console.log(email);
+  }
 }

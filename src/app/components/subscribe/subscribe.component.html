@@ -9,8 +9,8 @@
         </p>
       </div>
       <div class="user-input">
-        <input type="text" placeholder="Enter your email" />
-        <button mat-button>Get Started</button>
+        <input type="text" placeholder="Enter your email" #email />
+        <button mat-button (click)="onSubmit(email.value)">Get Started</button>
       </div>
     </div>
   </div>

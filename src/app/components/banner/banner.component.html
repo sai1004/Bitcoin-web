@@ -1,6 +1,4 @@
 <div class="section">
-  <app-nav-bar></app-nav-bar>
-
   <div class="bg-side-img"></div>
 
   <div class="assets">
@@ -12,8 +10,10 @@
             <p>{{ item.para }}</p>
           </div>
 
-          <input type="text" placeholder="Enter Your Email" />
-          <button mat-raised-button>Submit</button>
+          <input type="text" #email placeholder="Enter Your Email" />
+          <button mat-raised-button (click)="onSubmit(email.value)">
+            Submit
+          </button>
         </div>
 
         <div class="laptop">

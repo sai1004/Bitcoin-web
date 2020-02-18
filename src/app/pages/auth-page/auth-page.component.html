@@ -1,5 +1,4 @@
 <section>
-
   <h1>Template driven Form Example:</h1>
 
   <form #newUserForm="ngForm" (ngSubmit)="onSubmit(newUserForm)">
@@ -61,7 +60,7 @@
 
     <br />
     <br />
-    <button type="submit" [disabled]="!newUserForm.form.valid">
+    <button type="submit" [disabled]="!newUserForm.valid">
       Register
     </button>
 

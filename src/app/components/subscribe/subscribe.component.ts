@@ -12,4 +12,8 @@ export class SubscribeComponent implements OnInit {
   ngOnInit() {
   }
 
+  onSubmit(email: any) {
+    console.log(email);
+  }
+
 }
