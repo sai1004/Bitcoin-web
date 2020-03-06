@@ -1,4 +1,4 @@
-<section>
+<section fxLayoutAlign="center">
   <div>
     <div class="heading" Align="center">
       <h1>Meet Our Team</h1>
@@ -9,7 +9,7 @@
     </div>
 
     <div class="cards">
-      <div fxLayout="row wrap" fxLayoutAlign="space-around center">
+      <div fxLayout="row wrap" fxLayoutAlign="space-around">
         <ng-container *ngFor="let item of team">
           <div>
             <div class="card" Align="center">
@@ -19,7 +19,7 @@
                 <h3>{{ item.name }}</h3>
                 <p>{{ item.designation }}</p>
 
-                <div fxLayout="row" fxLayoutAlign="space-around"></div>
+                <!-- <div fxLayout="row" fxLayoutAlign="space-around"></div> -->
               </div>
             </div>
           </div>
