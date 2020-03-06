@@ -52,6 +52,7 @@ button:hover {
     #2dd3aa 100%,
     #2dd3aa 100%
   );
+  transition: 0.8s ease;
 }
 
 .bitcon-team {
