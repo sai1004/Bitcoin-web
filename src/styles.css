@@ -31,3 +31,14 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.mat-toolbar {
+  height: 48px !important;
+}
+
+.mat-spacer {
+  flex: 1 1 auto;
+}
+.mat-card-title {
+  margin-bottom: 0px !important;
+}

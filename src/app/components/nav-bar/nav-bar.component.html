@@ -1,30 +1,39 @@
-<main>
-  <div fxLayout="row" fxLayoutAlign="space-between center">
-    <!-- logo -->
-    <div fxFlex="25" Align="center">
-      <h3 routerLink="/">Bitcoin</h3>
-    </div>
-    <!-- empty space -->
-    <div fxFlex="15"></div>
-    <!-- md screen -->
-    <div fxFlex="70">
-      <div fxLayoutAlign="space-evenly center">
-        <a href="">HOME</a>
-        <a href="">SHOPE</a>
-        <a href="">ABOUT</a>
-        <a href="">BLOG</a>
-        <a href="">CONTACT</a>
-      </div>
+<mat-toolbar>
+  <div class="app-name" style="cursor:pointer; width: 100px;">
+    <header class="horizontal-nav scroll">
+      <mat-icon style="height: 50px; width: 80px;">
+        <img src="../../../assets//img/logo.png" alt="" class="logo" />
+      </mat-icon>
+    </header>
+  </div>
+  <span class="mat-spacer"></span>
+  <div fxHide.lt-md class="screen">
+    <button mat-button>HOME</button>
+    <button mat-button><a href="">Solution</a></button>
+    <button mat-button><a href="">Features</a></button>
+    <button mat-button><a href="">News</a></button>
+    <button mat-button><a href="">About</a></button>
+    <button mat-button><a href="">Contact</a></button>
+    <button mat-button><a href="">Sign Up Free</a></button>
+  </div>
+
+  <div fxHide.gt-sm>
+    <mat-icon *ngIf="!show" (click)="toggle()">menu</mat-icon>
+    <div *ngIf="show" (click)="toggle()">
+      <span> X </span>
     </div>
   </div>
-  <!-- small screen -->
-  <!-- <div fxHide.gt-sm class="small-screen">
-      <div fxLayout="column" fxLayoutAlign="space-evenly center">
-        <a href="">HOME</a>
-        <a href="">SHOPE</a>
-        <a href="">ABOUT</a>
-        <a href="">BLOG</a>
-        <a href="">CONTACT</a>
-      </div>
-    </div> -->
-</main>
+</mat-toolbar>
+
+<!-- small screen -->
+<div *ngIf="show">
+  <div fxHide.gt-md class="small-screen">
+    <button mat-button>HOME</button>
+    <button mat-button><a href="">Solution</a></button>
+    <button mat-button><a href="">Features</a></button>
+    <button mat-button><a href="">News</a></button>
+    <button mat-button><a href="">About</a></button>
+    <button mat-button><a href="">Contact</a></button>
+    <button mat-button><a href="">Sign Up Free</a></button>
+  </div>
+</div>
