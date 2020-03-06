@@ -9,7 +9,9 @@ mat-toolbar {
   margin: 5px;
   margin-top: 10px;
 }
-
+mat-icon {
+  outline: none;
+}
 .sign-up {
   border-radius: 30px;
   border: 1px solid #2dd3aa;

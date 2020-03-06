@@ -1,20 +1,20 @@
 <mat-toolbar>
   <div class="app-name" style="cursor:pointer; width: 100px;">
     <header class="horizontal-nav scroll">
-      <mat-icon style="height: 50px; width: 80px;">
+      <mat-icon style="height: 50px; width: 80px;" routerLink="/">
         <img src="../../../assets//img/logo.png" alt="" class="logo" />
       </mat-icon>
     </header>
   </div>
+
   <span class="mat-spacer"></span>
+
   <div fxHide.lt-md class="screen">
-    <button mat-button routerLink="/">HOME</button>
-    <button mat-button routerLink="/">Solution</button>
-    <button mat-button routerLink="/">Features</button>
-    <button mat-button routerLink="/">News</button>
-    <button mat-button routerLink="/">About</button>
-    <button mat-button routerLink="/">Contact</button>
-    <button mat-button routerLink="/" class="sign-up">Sign Up Free</button>
+    <ng-container *ngFor="let menu of menus">
+      <button mat-button routerLink="/{{ menu }}">{{ menu }}</button>
+    </ng-container>
+
+    <button mat-button routerLink="/auth" class="sign-up">Sign Up Free</button>
   </div>
 
   <div fxHide.gt-sm>

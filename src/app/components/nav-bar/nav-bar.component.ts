@@ -6,6 +6,15 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./nav-bar.component.css"]
 })
 export class NavBarComponent implements OnInit {
+  menus: string[] = [
+    "Home",
+    "Solution",
+    "Features",
+    "News",
+    "About",
+    "Contact"
+  ];
+
   show: boolean = false;
 
   constructor() {}
