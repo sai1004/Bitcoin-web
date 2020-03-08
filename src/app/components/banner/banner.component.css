@@ -4,7 +4,6 @@
 
 .bg-side-img {
   background-image: url(../../../assets/img/hero-bg.png);
-  /* background-position-x: left; */
   background-repeat: no-repeat;
   background-size: 140vw 1400px;
   background-position: right;
@@ -13,32 +12,21 @@
 }
 
 .assets {
-
   position: absolute;
   top: 200px;
   left: 100px;
 }
 
-
-/* input {
-  height: 42px;
-  width: 330px;
-  outline: none;
-  border: 1px solid gray;
-  border-radius: 20px;
-} */
-
 input::-webkit-input-placeholder {
   padding: 10px;
 }
-
 
 .laptop {
   height: 400px;
 }
 
-
-input[type=text], select {
+input[type="text"],
+select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;

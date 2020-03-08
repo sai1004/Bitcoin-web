@@ -1,6 +1,7 @@
 section {
   background-color: whitesmoke;
 }
+
 h1 {
   color: #20509e;
   font-weight: 500;
@@ -13,6 +14,7 @@ a {
   line-height: 28px;
   color: gray;
 }
+
 p {
   color: gray;
 }
