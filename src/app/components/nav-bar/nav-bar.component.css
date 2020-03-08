@@ -9,9 +9,11 @@ mat-toolbar {
   margin: 5px;
   margin-top: 10px;
 }
+
 mat-icon {
   outline: none;
 }
+
 .sign-up {
   border-radius: 30px;
   border: 1px solid #2dd3aa;
@@ -21,12 +23,10 @@ mat-icon {
   color: white;
   border: none;
 
-  background: linear-gradient(
-    to right,
-    #3e2bce 0%,
-    #2dd3aa 100%,
-    #2dd3aa 100%,
-    #2dd3aa 100%
-  );
+  background: linear-gradient(to right,
+      #3e2bce 0%,
+      #2dd3aa 100%,
+      #2dd3aa 100%,
+      #2dd3aa 100%);
   transition: 0.8s ease;
 }

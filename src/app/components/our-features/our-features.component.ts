@@ -44,7 +44,6 @@ export class OurFeaturesComponent implements OnInit {
       para:
         "Excepteur sint occaecat cupidatat non  <br/> proident sunt in culpa qui officia deserunt <br/> mollit anim id est laborum."
     }
-    // { icon: '../../../assets/img/'}
   ];
 
   constructor() {}

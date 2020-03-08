@@ -15,6 +15,7 @@ section {
 .heading {
   padding-bottom: 60px;
 }
+
 .heading h1 {
   color: #20509e;
   margin: 0;
@@ -33,12 +34,14 @@ a {
 }
 
 .mat-toolbar {
-  height: 48px !important;
+  height: 52px !important;
 }
 
 .mat-spacer {
   flex: 1 1 auto;
 }
+
 .mat-card-title {
   margin-bottom: 0px !important;
 }
+

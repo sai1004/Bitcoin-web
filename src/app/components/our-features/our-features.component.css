@@ -1,6 +1,7 @@
 .heading {
   padding-bottom: 60px;
 }
+
 .heading h1 {
   color: white;
 }
@@ -8,15 +9,14 @@
 .heading p {
   color: white;
 }
+
 section {
   color: white;
-  background: linear-gradient(
-    to right,
-    #3e2bce 0%,
-    #2dd3aa 100%,
-    #2dd3aa 100%,
-    #2dd3aa 100%
-  );
+  background: linear-gradient(to right,
+      #3e2bce 0%,
+      #2dd3aa 100%,
+      #2dd3aa 100%,
+      #2dd3aa 100%);
 }
 
 .icons {

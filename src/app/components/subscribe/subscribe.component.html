@@ -9,7 +9,13 @@
         </p>
       </div>
       <div class="user-input">
-        <input type="text" placeholder="Enter your email" #email />
+        <input
+          type="email"
+          placeholder="Enter your email"
+          inputmode="email"
+          #email
+          required
+        />
         <button mat-button (click)="onSubmit(email.value)">Get Started</button>
       </div>
     </div>
