@@ -54,3 +54,10 @@ button:hover {
 .bitcon-team {
   max-width: 500px;
 }
+
+
+@media screen and (max-width:600px) {
+  .bitcon-team {
+    max-width: 310px;
+  }
+}

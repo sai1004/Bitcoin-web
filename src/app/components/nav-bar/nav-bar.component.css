@@ -1,7 +1,7 @@
 mat-toolbar {
   position: fixed;
   width: 100%;
-  z-index: 999;
+  z-index: 99;
   box-shadow: 0px 1px 1px 1px rgba(209, 204, 204, 0.5);
 }
 
@@ -10,11 +10,17 @@ mat-toolbar {
   margin-top: 10px;
 }
 
+.icons {
+  margin-top: 6px;
+}
+
 mat-icon {
   outline: none;
+  cursor: pointer;
 }
 
 .sign-up {
+  color: black;
   border-radius: 30px;
   border: 1px solid #2dd3aa;
 }
@@ -22,7 +28,6 @@ mat-icon {
 .sign-up:hover {
   color: white;
   border: none;
-
   background: linear-gradient(to right,
       #3e2bce 0%,
       #2dd3aa 100%,
